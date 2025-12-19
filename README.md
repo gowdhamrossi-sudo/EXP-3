@@ -39,25 +39,38 @@ switch2.
 •  Circuit is tested for all possible combination of switch positions.
 
 
-Direct connection: CIRCUIT DIAGRAM: 
+Direct connection:
+CIRCUIT DIAGRAM:
 
-<img width="920" height="480" alt="image" src="https://github.com/user-attachments/assets/7ac7e24f-802c-4035-9fb3-22fbaffaf615" />
+<img width="731" height="365" alt="image" src="https://github.com/user-attachments/assets/33d05b70-5807-4079-bb00-9a748ba8d3a5" />
 
 
 Tabulation:1
+|NODE|S1|S2|LAMP|
+|-----|----|---|-----|
+|1|ON|ON|ON|
+|2|ON|OFF|OFF|
+|3|OFF|ON|OFF|
+|4|OFF|OFF|ON|
 
-<img width="705" height="363" alt="image" src="https://github.com/user-attachments/assets/8dbb6621-8c89-4ad0-af53-5cb1b6b9d30a" />
+| COMPONENTS       | PROTEUS     | SPECIFICATION        |
+|------------------|-------------|----------------------|
+| AC Supply        | VSine       | Amplitude = 220 V    |
+| Two-way Switch   | SPDT        | Frequency = 50 Hz    |
+| Lamp             | Animated    | 230 V                |
 
 	
 Cross connection: CIRCUIT DIAGRAM:
 
-<img width="939" height="448" alt="image" src="https://github.com/user-attachments/assets/8f3dd641-5e49-4228-83fc-3e7f97d6d438" />
-
+<img width="1287" height="636" alt="image" src="https://github.com/user-attachments/assets/e6cf2983-8449-4942-8301-2d5de615864b" />
 
 Tabulation:2
-
-<img width="639" height="344" alt="image" src="https://github.com/user-attachments/assets/30b4389a-2302-4e52-bd9d-6dae5368db63" />
-
+|NODE|S1|S2|LAMP|
+|-----|----|---|-----|
+|1|ON|ON|OFF|
+|2|ON|OFF|ON|
+|3|OFF|ON|ON|
+|4|OFF|OFF|OFF|
 
 RESULT:
 Thus the staircase wiring is connected and tested.
